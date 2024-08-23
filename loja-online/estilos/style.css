@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#tudo {
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    position: relative;
+}
+
+nav > a {
+    display: inline-block;
+    position: absolute;
+    
+    right: 10px;
+}
