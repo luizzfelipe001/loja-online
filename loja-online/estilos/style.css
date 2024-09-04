@@ -11,15 +11,65 @@ div#tudo {
 
 h1 {
     text-align: center;
+    padding-top: 10px;
+    color: white;
 }
 
-nav {
-    position: relative;
+header {
+    background-color: #4A5375;
 }
 
-nav > a {
-    display: inline-block;
+a#entrar {
     position: absolute;
+    text-decoration: none;
+    display: inline-block;
     
     right: 10px;
+    padding: 13px;
+    margin-top: 7px;
+    color: white;
+    background-color: #4A5375;
+    border-radius: 10px;
 }
+a#entrar:hover {
+    background-color: #6573a5;
+}
+
+
+div#itens {
+    display: none;
+    width: 15%;
+    background-color: #4A5375;
+
+    text-align: center;
+    border-radius: 10px;
+}
+
+div#itens li {
+    background-color: #4A5375;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+div#itens li:hover {
+    background-color: #6573a5;
+}
+
+#curva {
+    border-radius: 0px 0px 10px 0px;
+}
+
+span {
+    cursor: pointer;
+    margin: 10px;
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+}
+
+span:hover {
+    background-color: #6573a5;
+}
+
+

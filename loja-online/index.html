@@ -8,16 +8,30 @@
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    <div id="tudo">
-        <header>
-            <h1>Loja Online</h1>
-            <nav>
-                <span class="material-symbols-outlined">
-                    menu
-                </span>
-                <a href="#">Entrar</a>
-            </nav>
-        </header>
+    <header>
+        <h1>Loja Online</h1>
+        <span class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <a id="entrar" href="login.html">Entrar</a>
+        
+    </header>
+    <div id="itens">
+        <ul>
+            <li>Inicio<br></li>
+            <li>Pesquisar<br></li> 
+            <li>Minhas compras<br></li>
+            <li>Minha conta<br></li>
+            <li id="curva">Configurações</li>
+        </ul>
     </div>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-color: #208EF5;
+}
+
+.formulario {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    height: 400px;
+    width: 500px;
+    background-color: #4A5375;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 10px 0px 50px 0px;
+}
+
+label {
+    color: white;
+    margin-left: 15px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0px 50px 10px;
+}
+
+.pg {
+    margin-left: 11px;
+    color: white;
+}
+
+.pg a {
+    color: #208EF5;
+    
+}
+
+input#entrar {
+    padding: 10px;
+    border: 0px;
+    margin-left: 11px;
+    cursor: pointer;
+}
